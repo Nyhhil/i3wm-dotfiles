@@ -15,7 +15,7 @@ log_error() {
 }
 
 # La ubicación del archivo de lista de paquetes.
-PKG_LIST="~/i3wm-dotfiles/aur-pkglist.txt"
+PKG_LIST="./aur-pkglist.txt"
 
 # --- Verificación de Requisitos ---
 if ! command -v pacman &> /dev/null; then
