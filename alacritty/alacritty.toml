@@ -1,0 +1,68 @@
+# Archivo: ~/.config/alacritty/alacritty.toml
+
+[font]
+# Es MUY IMPORTANTE que definas tu tamaño de fuente base aquí.
+# Nuestro cálculo se basa en este número. En este caso, 12.0.
+size = 12.0
+
+[keyboard]
+bindings = [
+    # Atajo: Ctrl + \ para establecer el tamaño de fuente a 16.0
+    # Este método es compatible con versiones más antiguas de Alacritty.
+    # Cómo funciona:
+    # 1. Resetea a 12.0
+    # 2. Sube a 13.0, 3. Sube a 14.0, 4. Sube a 15.0, 5. Sube a 16.0
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Backslash", mods = "Control", action = "DecreaseFontSize" },
+
+
+    # Atajo para volver al tamaño por defecto (12.0 en este caso)
+    { key = "Key0", mods = "Control", action = "ResetFontSize" }
+]
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Los colores se definen en formato hexadecimal (RGB)
+# Puedes encontrar selectores de color hexadecimal en línea buscando "hex color picker"
+
+# Tema base (fondo, primer plano, etc.)
+[colors.primary]
+background = '0x330033' # Un gris muy oscuro (casi negro)
+foreground = '0xF8F8F2' # Un blanco suave
+
+# Colores del cursor
+[colors.cursor]
+text = '0x990099' # Color del texto debajo del cursor
+cursor = '0x1e001e' # Color del propio cursor
